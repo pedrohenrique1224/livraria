@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(background.jpg);
+    width: 100%;
+}
+
+header {
+    width: 1444px;
+    height: 73px;
+    background-color: #21189d;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+header a{
+    margin-left: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+
+}   
+.container{
+   display: flex;
+    
+    
+}
+.container div{
+    margin-left: 20px;
+}
+
+
+.contaniner_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        
+    margin-top: 100px;
+    margin-left: auto;
+    width: 300px;
+    height: 495px;
+    display: grid;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card #img_card{
+    width: 300px;
+    height: 360px;
+    margin-top: 0%;
+}
+.footer {
+    display: flex;
+    
+    
+    background-color: black;
+    color: #ffffff;
+}
+
+.footer_link {
+    margin-top: 10px;
+    width: 50%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.footer_link a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 48px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+
+.imagem {
+    margin-top: 30px;
+    width: 50%;
+    
+
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagem p {
+    width: 50%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+
+    text-align: center;
+}
+
+.footer img {
+    width: 20%;
+    border-radius: 180px;
+    
+}
+.footer #img{
+    margin-right: none;
+}
+#copy{
+    font-size: 10px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+
+}
